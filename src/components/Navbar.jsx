@@ -44,7 +44,7 @@ const Navbar = () => {
                             </li>
                             <li className='group'>
                                 <a href='#skills' className='mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white'>
-                                    skills
+                                    Skills
                                 </a>
                             </li>
                             <li className='group'>
@@ -52,16 +52,6 @@ const Navbar = () => {
                                     Portfolio
                                 </a>
                             </li>
-                            {/* <li className='group'>
-                                <a href='#clients' className='mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white'>
-                                    Clients
-                                </a>
-                            </li>
-                            <li className='group'>
-                                <a href='#blog' className='mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white'>
-                                    Blog
-                                </a>
-                            </li> */}
                             <li className='group'>
                                 <a href='#contact' className='mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white'>
                                     Contact

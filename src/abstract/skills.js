@@ -47,14 +47,14 @@ const mySkills = [
         name: 'C++',
         url: 'www.youtube.com',
         image: C,
-        level: 'Expert',
+        level: 'Beginner',
     },
     {
         type: 'language',
         name: 'Python',
         url: 'www.youtube.com',
         image: Python,
-        level: 'Expert',
+        level: 'Intermediate',
     },
     {
         type: 'framework',

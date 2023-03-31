@@ -38,7 +38,7 @@ const Skills = () => {
                         <ul className='flex justify-between w-[80%] md:w-1/2 lg:w-1/3 mb-3'>
                             {skills.map((skill, index) => (
                                 <li
-                                    className={`mb-2 text-md md:text-lg font-semibold  cursor-pointer transition duration-300 ${active === index ? 'text-primary' : 'text-dark'}`}
+                                    className={`mb-2 text-md md:text-lg font-semibold  cursor-pointer transition duration-300  ${active === index ? 'text-primary' : 'text-dark dark:text-white'}`}
                                     onClick={() => handleChangeExperience(skill, index)}
                                     key={index}
                                 >
