@@ -4,6 +4,14 @@ import Php from '../assets/img/skills/php.svg';
 import Javascript from '../assets/img/skills/javascript.svg';
 import C from '../assets/img/skills/c.svg';
 import Python from '../assets/img/skills/python.svg';
+import Bootstrap from '../assets/img/skills/bootstrap.svg';
+import Express from '../assets/img/skills/express.svg';
+import Laravel from '../assets/img/skills/laravel.svg';
+import React from '../assets/img/skills/react.svg';
+import Codeigniter from '../assets/img/skills/codeigniter.svg';
+import Mongodb from '../assets/img/skills/mongodb.svg';
+import Postgresql from '../assets/img/skills/postgresql.svg';
+import Xampp from '../assets/img/skills/xampp.svg';
 
 const mySkills = [
     {
@@ -46,6 +54,62 @@ const mySkills = [
         name: 'Python',
         url: 'www.youtube.com',
         image: Python,
+        level: 'Expert',
+    },
+    {
+        type: 'framework',
+        name: 'Bootstrap',
+        url: 'www.youtube.com',
+        image: Bootstrap,
+        level: 'Expert',
+    },
+    {
+        type: 'framework',
+        name: 'Laravel',
+        url: 'www.youtube.com',
+        image: Laravel,
+        level: 'Expert',
+    },
+    {
+        type: 'framework',
+        name: 'Express',
+        url: 'www.youtube.com',
+        image: Express,
+        level: 'Expert',
+    },
+    {
+        type: 'framework',
+        name: 'React',
+        url: 'www.youtube.com',
+        image: React,
+        level: 'Intermediate',
+    },
+    {
+        type: 'framework',
+        name: 'Codeigniter',
+        url: 'www.youtube.com',
+        image: Codeigniter,
+        level: 'Expert',
+    },
+    {
+        type: 'tools',
+        name: 'MongoDb',
+        url: 'www.youtube.com',
+        image: Mongodb,
+        level: 'Intermediate',
+    },
+    {
+        type: 'tools',
+        name: 'PostgreSql',
+        url: 'www.youtube.com',
+        image: Postgresql,
+        level: 'Intermediate',
+    },
+    {
+        type: 'tools',
+        name: 'Xampp',
+        url: 'www.youtube.com',
+        image: Xampp,
         level: 'Expert',
     },
 ];

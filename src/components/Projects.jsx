@@ -12,9 +12,6 @@ const Projects = () => {
                     <div className='mx-auto mb-16 max-w-xl text-center'>
                         <h4 className='mb-2 text-lg font-semibold text-primary'>Portfolio</h4>
                         <h2 className='mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl'>New Project</h2>
-                        <p className='text-md font-medium text-secondary md:text-lg'>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro consequuntur alias, commodi nemo enim aliquam ipsam obcaecati? Assumenda, ipsam?
-                        </p>
                     </div>
                 </div>
 
