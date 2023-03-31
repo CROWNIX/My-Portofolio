@@ -78,11 +78,11 @@ const Footer = () => {
                         </a>
                     </div>
                     <p className='text-center text-xs font-medium text-slate-500'>
-                        Dibuat dengan <span className='text-pink-500'>❤️</span> oleh{' '}
+                        Made With <span className='text-pink-500'>❤️</span> By:{' '}
                         <a href='https://www.instagram.com/rahmatfauzi.w/' target='_blank' className='font-bold text-primary' rel='noreferrer'>
                             Rahmat Fauzi
                         </a>
-                        , menggunakan
+                        , with
                         <a href='https://tailwindcss.com' target='_blank' className='font-bold text-sky-500 hover:underline' rel='noreferrer'>
                             Tailwind CSS
                         </a>
