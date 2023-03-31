@@ -8,8 +8,8 @@ const About = () => {
                     <div className='mb-10 w-full px-4 lg:w-1/2'>
                         <h4 className='mb-3 text-lg font-bold uppercase text-primary'>About Me</h4>
                         <p className='max-w-xl text-base font-medium text-secondary lg:text-lg indent-10'>
-                            Saya seorang mahasiswa sistem informasi di Universitas Bina Sarana Informatika. Saya tertarik dengan pengembangan web dengan pengalaman pengguna yang mengesankan. Saat ini sedang mengikuti program kampus mandiri
-                            dan juga sedang mengerjakan proyek web freelance. Pernah magang sebagai IT support di sebuah perusahaan.
+                            I am a student of information systems at Universitas Bina Sarana Informatika. I am interested in web development with impressive user experience. Currently following the independent campus program and also doing
+                            a freelance web project. Have had an internship as IT support in a company.
                         </p>
                     </div>
                     <div className='w-full px-4 lg:w-1/2'>
