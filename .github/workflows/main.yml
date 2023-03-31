@@ -1,24 +1,21 @@
-on: 
-  push: 
-    branches: 
-      - main
-  
+on:
+    push:
+        branches:
+            - main
+
 name: 🚀 Deploy website on push
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
-    runs-on: ubuntu-latest
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
-      
-    - name: Build Project
-      run: npm run build
-    
-    - name: 📱 Deploy Via FTP
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: ${{ secrets.HOST }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./build/
+    web-deploy:
+        name: 🎉 Deploy
+        runs-on: ubuntu-latest
+        steps:
+            - name: 🚚 Get latest code
+              uses: actions/checkout@v2
+
+            - name: 📱 Deploy Via FTP
+              uses: SamKirkland/FTP-Deploy-Action@4.3.0
+              with:
+                  server: ${{ secrets.HOST }}
+                  username: ${{ secrets.FTP_USERNAME }}
+                  password: ${{ secrets.FTP_PASSWORD }}
+                  local-dir: ./build/
