@@ -11,6 +11,9 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
+      
+    - name: Build Project
+      run: npm run build
     
     - name: 📱 Deploy Via FTP
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
@@ -18,3 +21,4 @@ jobs:
         server: ${{ secrets.HOST }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./build/
