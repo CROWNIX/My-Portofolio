@@ -12,6 +12,9 @@ import Codeigniter from '../assets/img/skills/codeigniter.svg';
 import Mongodb from '../assets/img/skills/mongodb.svg';
 import Postgresql from '../assets/img/skills/postgresql.svg';
 import Xampp from '../assets/img/skills/xampp.svg';
+import Golang from '../assets/img/skills/golang.svg';
+import Kafka from '../assets/img/skills/kafka.svg';
+import Redis from '../assets/img/skills/redis.svg';
 
 const mySkills = [
     {
@@ -54,6 +57,13 @@ const mySkills = [
         name: 'Python',
         url: 'www.youtube.com',
         image: Python,
+        level: 'Intermediate',
+    },
+    {
+        type: 'language',
+        name: 'Golang',
+        url: 'www.youtube.com',
+        image: Golang,
         level: 'Intermediate',
     },
     {
@@ -111,6 +121,20 @@ const mySkills = [
         url: 'www.youtube.com',
         image: Xampp,
         level: 'Expert',
+    },
+    {
+        type: 'tools',
+        name: 'Kafka',
+        url: 'www.youtube.com',
+        image: Kafka,
+        level: 'Intermediate',
+    },
+    {
+        type: 'tools',
+        name: 'Redis',
+        url: 'www.youtube.com',
+        image: Redis,
+        level: 'Intermediate',
     },
 ];
 
