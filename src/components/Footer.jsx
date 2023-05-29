@@ -84,7 +84,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <p className='text-center text-xs font-medium text-slate-500'>
-                        Made With <span className='text-pink-500'>❤️</span> By:{' '}
+                        Made With <span className='text-pink-500'>❤️</span> By :{' '}
                         <a href='https://www.instagram.com/rahmatfauzi.w/' target='_blank' className='font-bold text-primary' rel='noreferrer'>
                             Rahmat Fauzi
                         </a>
