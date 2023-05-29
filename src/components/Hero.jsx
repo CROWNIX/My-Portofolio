@@ -11,7 +11,7 @@ const Hero = () => {
                             Hello Everyone 👋, I'm <span className='mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl'>Rahmat Fauzi</span>
                         </h1>
                         <h2 className='mb-5 text-lg font-medium text-secondary lg:text-2xl'>
-                            Web Developer & <span className='text-dark dark:text-white'>Content Creator</span>
+                            Web Developer & <span className='text-dark dark:text-white'>Student</span>
                         </h2>
                         <blockquote className='mb-10 font-medium leading-relaxed text-secondary'>Sekali anda memahami, seribu kali anda mengerti</blockquote>
 
